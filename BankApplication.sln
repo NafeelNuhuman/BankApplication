@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTier", "DataTier\DataTier.csproj", "{305F5DFA-7CF8-4679-A949-2B64AADC571C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessTier", "BusinessTier\BusinessTier.csproj", "{5F351EBF-4025-4749-ADD2-397A4272684C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankClient", "BankClient\BankClient.csproj", "{7D319DDA-DB0E-459E-91D9-A2AC25351981}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{305F5DFA-7CF8-4679-A949-2B64AADC571C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{305F5DFA-7CF8-4679-A949-2B64AADC571C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{305F5DFA-7CF8-4679-A949-2B64AADC571C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{305F5DFA-7CF8-4679-A949-2B64AADC571C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F351EBF-4025-4749-ADD2-397A4272684C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F351EBF-4025-4749-ADD2-397A4272684C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F351EBF-4025-4749-ADD2-397A4272684C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F351EBF-4025-4749-ADD2-397A4272684C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D319DDA-DB0E-459E-91D9-A2AC25351981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D319DDA-DB0E-459E-91D9-A2AC25351981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D319DDA-DB0E-459E-91D9-A2AC25351981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D319DDA-DB0E-459E-91D9-A2AC25351981}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77831988-2077-43C2-892E-A41212AEB652}
+	EndGlobalSection
+EndGlobal

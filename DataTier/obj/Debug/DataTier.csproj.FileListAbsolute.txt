@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\DC\Assingment 2\BankApp\BankApplication\DataTier\bin\Debug\DataTier.exe.config
+C:\Users\User\Desktop\DC\Assingment 2\BankApp\BankApplication\DataTier\bin\Debug\DataTier.exe
+C:\Users\User\Desktop\DC\Assingment 2\BankApp\BankApplication\DataTier\bin\Debug\DataTier.pdb
+C:\Users\User\Desktop\DC\Assingment 2\BankApp\BankApplication\DataTier\bin\Debug\BankDB.dll
+C:\Users\User\Desktop\DC\Assingment 2\BankApp\BankApplication\DataTier\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\DC\Assingment 2\BankApp\BankApplication\DataTier\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\User\Desktop\DC\Assingment 2\BankApp\BankApplication\DataTier\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Desktop\DC\Assingment 2\BankApp\BankApplication\DataTier\obj\Debug\DataTier.csprojAssemblyReference.cache
+C:\Users\User\Desktop\DC\Assingment 2\BankApp\BankApplication\DataTier\obj\Debug\DataTier.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\DC\Assingment 2\BankApp\BankApplication\DataTier\obj\Debug\DataTier.csproj.CopyComplete
+C:\Users\User\Desktop\DC\Assingment 2\BankApp\BankApplication\DataTier\obj\Debug\DataTier.exe
+C:\Users\User\Desktop\DC\Assingment 2\BankApp\BankApplication\DataTier\obj\Debug\DataTier.pdb

@@ -1,0 +1,46 @@
+﻿<Window x:Class="BankClient.Accounts"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BankClient"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        SizeToContent="WidthAndHeight"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="Accounts" Height="450" Width="800">
+    <Grid>
+        <Rectangle Fill="#FF893AB7" 
+            HorizontalAlignment="Left" 
+            Height="40" 
+            Margin="26,28,0,0" 
+            VerticalAlignment="Top" 
+            Width="21"/>
+        <Label Content="ACCOUNTS" HorizontalAlignment="Left" Margin="52,28,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <ListView x:Name="accountList" HorizontalAlignment="Left" Height="321" Margin="332,68,0,0" VerticalAlignment="Top" Width="408" SelectionChanged="ListView_SelectionChanged">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="btnCreateAcc"
+            Style="{StaticResource MaterialDesignRaisedDarkButton}"
+            ToolTip="Resource name: MaterialDesignRaisedLightDarkButton"
+            Content="Create New Account" Margin="52,110,535.6,271" 
+            FontSize="12" Height="Auto" Click="btnCreateAcc_Click"  />
+        <Label Content="Your Accounts" HorizontalAlignment="Left" Margin="342,69,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Button x:Name="btnShowAcc"
+            Style="{StaticResource MaterialDesignRaisedDarkButton}"
+            ToolTip="Resource name: MaterialDesignRaisedLightDarkButton"
+            Content="Show My Accounts" Margin="569,72,66.6,318" 
+            FontSize="10" Height="Auto" Click="btnShowAcc_Click"   />
+
+    </Grid>
+</Window>
